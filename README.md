@@ -2,6 +2,17 @@
 
 A Model Context Protocol (MCP) server for accessing the Climatiq API to calculate carbon emissions. This allows AI assistants to perform real-time carbon calculations and provide climate impact insights.
 
+## Demo
+
+
+https://github.com/user-attachments/assets/c253d6d1-ccf6-4c14-965e-6023ba2a0296
+
+
+
+https://github.com/user-attachments/assets/d61c1181-acf6-4d9f-9a48-537fc64ac4c3
+
+
+
 ## Features
 
 This MCP server integrates with the Climatiq API to provide carbon emission calculations for AI assistants:
@@ -49,7 +60,7 @@ source .venv/bin/activate
 .venv\Scripts\activate
 
 # Install dependencies with development extras
-uv sync --dev --extras
+uv sync --dev --extra all
 ```
 
 ### Using uv
