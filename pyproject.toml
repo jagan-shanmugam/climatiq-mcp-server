@@ -1,0 +1,27 @@
+[project]
+name = "climatiq-mcp-server"
+version = "0.2.0"
+description = "Climatiq MCP server for carbon emission calculations"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+ "mcp[cli]>=1.4.1",
+ "httpx>=0.25.2",
+ "python-dotenv>=1.0.0",
+ "rich>=13.5.0",
+ "pydantic>=2.10.6",
+]
+[[project.authors]]
+name = "Jagan Shanmugam"
+email = "jaganshanmugam@outlook.com"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+climatiq-mcp-server = "climatiq_mcp_server.server:run_server"
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/climatiq-mcp-server"
+"Documentation" = "https://github.com/yourusername/climatiq-mcp-server#readme"
