@@ -1,4 +1,5 @@
 # Climatiq MCP Server
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)&ensp;
 
 A Model Context Protocol (MCP) server for accessing the Climatiq API to calculate carbon emissions. This allows AI assistants to perform real-time carbon calculations and provide climate impact insights.
 
@@ -221,3 +222,7 @@ For detailed documentation on using specific tools and advanced features, see th
 Climatiq provides a powerful API for carbon intelligence, allowing you to calculate emissions from electricity usage, transportation, procurement, and more. This MCP server makes those capabilities accessible to AI assistants through the Model Context Protocol.
 
 For more information about Climatiq, visit [climatiq.io](https://www.climatiq.io/).
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
